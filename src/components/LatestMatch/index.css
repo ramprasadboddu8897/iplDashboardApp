@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.latest-matches-card-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+}
+
+.text {
+  font-size: 15px;
+}
+.team-logo {
+  width: 80px;
+}
+.venue-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-text {
+  font-size: 17px;
+}
+.team-h-container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .team-heading {
+    font-size: 15px;
+  }
+  .team-logo {
+    width: 70px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-matches-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .line {
+    display: none;
+  }
+  .team-logo {
+    width: 180px;
+    height: 160px;
+  }
+}
